@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>实验宝平台后台管理系统</title>
+  <link rel="stylesheet" href="../layui/css/layui.css">
+  <style>
+    .lps-box {
+      background-image: url("../img/welcome-back.png");
+      width: 677px;
+      height: 341px;
+      position: fixed;
+      top: 35%;
+      left: 50%;
+      margin-top: -171px;
+      margin-left: -339px;
+    }
+  </style>
+</head>
+<body style="position: relative;width: 100%;height: 100%">
+
+<div class="lps-box"></div>
+
+<script type="text/javascript">
+  (function () {
+    if (parent.$p) {
+      parent.$p.NavTitle(null, {hide: true});
+    }
+  })();
+</script>
+</body>
+</html>
